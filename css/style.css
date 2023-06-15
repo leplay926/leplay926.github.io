@@ -1,0 +1,888 @@
+/*# sourceMappingURL=style.css.map */
+/* line 2, ../bootstrap project/src/scss/style.scss */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../bootstrap project/src/scss/_general.scss */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 6, ../bootstrap project/src/scss/_general.scss */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2;
+}
+
+/* line 14, ../bootstrap project/src/scss/_general.scss */
+.hamburger {
+  display: none;
+}
+
+/* line 18, ../bootstrap project/src/scss/_general.scss */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 25, ../bootstrap project/src/scss/_general.scss */
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 31, ../bootstrap project/src/scss/_general.scss */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 37, ../bootstrap project/src/scss/_general.scss */
+.subheader {
+  position: absolute;
+  top: 50px;
+  /* * */
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 46, ../bootstrap project/src/scss/_general.scss */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 52, ../bootstrap project/src/scss/_general.scss */
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 60, ../bootstrap project/src/scss/_general.scss */
+.subheader .subheader_call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 68, ../bootstrap project/src/scss/_general.scss */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+  text-decoration: none;
+}
+
+/* line 80, ../bootstrap project/src/scss/_general.scss */
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, ../bootstrap project/src/scss/_mixins.scss */
+.subheader .subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 100, ../bootstrap project/src/scss/_general.scss */
+.promo {
+  min-height: 800px;
+  background: url("../img/uber_bg.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 105, ../bootstrap project/src/scss/_general.scss */
+.promo .promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 115, ../bootstrap project/src/scss/_general.scss */
+.promo .promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 126, ../bootstrap project/src/scss/_general.scss */
+.promo .promo_text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 135, ../bootstrap project/src/scss/_general.scss */
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, ../bootstrap project/src/scss/_mixins.scss */
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 153, ../bootstrap project/src/scss/_general.scss */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 157, ../bootstrap project/src/scss/_general.scss */
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 170, ../bootstrap project/src/scss/_general.scss */
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 180, ../bootstrap project/src/scss/_general.scss */
+.subtitle {
+  font-weight: 400;
+  margin-top: 19px;
+  font-size: 17px;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 188, ../bootstrap project/src/scss/_general.scss */
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 194, ../bootstrap project/src/scss/_general.scss */
+.reasons .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 205, ../bootstrap project/src/scss/_general.scss */
+.reasons .reasons_block .reasons_descr {
+  width: 343px;
+}
+
+/* line 208, ../bootstrap project/src/scss/_general.scss */
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 215, ../bootstrap project/src/scss/_general.scss */
+.reasons .reasons_block .reasons_descr .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 224, ../bootstrap project/src/scss/_general.scss */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 230, ../bootstrap project/src/scss/_general.scss */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 234, ../bootstrap project/src/scss/_general.scss */
+.mobile_item {
+  position: relative;
+}
+
+/* line 238, ../bootstrap project/src/scss/_general.scss */
+.mobile_item_1 {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  background: url("../img/Card_1.png") center center/cover no-repeat;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 247, ../bootstrap project/src/scss/_general.scss */
+.mobile_item_2 {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  background: url("../img/Card_2.png") center center/cover no-repeat;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 256, ../bootstrap project/src/scss/_general.scss */
+.mobile_item_3 {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  background: url("../img/Card_3.png") center center/cover no-repeat;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 265, ../bootstrap project/src/scss/_general.scss */
+.mobile_item_4 {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  background: url("../img/Card_4.png") center center/cover no-repeat;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 274, ../bootstrap project/src/scss/_general.scss */
+.mobile_item_5 {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  background: url("../img/Card_5.png") center center/cover no-repeat;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 283, ../bootstrap project/src/scss/_general.scss */
+.mobile_item_6 {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  background: url("../img/Card_6.png") center center/cover no-repeat;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 292, ../bootstrap project/src/scss/_general.scss */
+.mobile .mobile_item_subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 301, ../bootstrap project/src/scss/_general.scss */
+.mobile_item .mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* line 316, ../bootstrap project/src/scss/_general.scss */
+.mobile_item .mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 325, ../bootstrap project/src/scss/_general.scss */
+.auto {
+  position: relative;
+  min-height: 898px;
+  padding: 57px 0 138px 0;
+  background: url("../img/podlozhka_auto.png") center center/cover no-repeat;
+}
+
+/* line 331, ../bootstrap project/src/scss/_general.scss */
+.auto .label_auto {
+  margin-top: 59px;
+  width: 115px;
+  height: 27px;
+  background: #FFFFFF;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #070716;
+}
+
+/* line 343, ../bootstrap project/src/scss/_general.scss */
+.auto .title_white {
+  color: #FFFFFF;
+}
+
+/* line 347, ../bootstrap project/src/scss/_general.scss */
+.auto .subtitle_white {
+  color: #ffffff;
+}
+
+/* line 351, ../bootstrap project/src/scss/_general.scss */
+.auto .auto_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 357, ../bootstrap project/src/scss/_general.scss */
+.auto .auto_descr {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 365, ../bootstrap project/src/scss/_general.scss */
+.auto .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 377, ../bootstrap project/src/scss/_general.scss */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 380, ../bootstrap project/src/scss/_general.scss */
+.require .reqiure_block {
+  margin: 33px 0;
+}
+
+/* line 384, ../bootstrap project/src/scss/_general.scss */
+.require .block_nbm {
+  margin-bottom: 0;
+}
+
+/* line 388, ../bootstrap project/src/scss/_general.scss */
+.require .require_title {
+  font-weight: 400;
+  font-size: 22px;
+  color: #1CA8C3;
+}
+
+/* line 394, ../bootstrap project/src/scss/_general.scss */
+.require .require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 401, ../bootstrap project/src/scss/_general.scss */
+.require .require_list li {
+  margin-bottom: 10px;
+  padding-left: 50px;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 12px;
+  position: relative;
+}
+
+/* line 411, ../bootstrap project/src/scss/_general.scss */
+.require .require_list li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 17px;
+  top: 2px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/check_blue.png") center center/cover no-repeat;
+}
+
+/* line 422, ../bootstrap project/src/scss/_general.scss */
+.require .require_descr {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #1CA8C3;
+  margin-top: 25px;
+}
+
+/* line 434, ../bootstrap project/src/scss/_general.scss */
+.world {
+  position: relative;
+  min-height: 720px;
+  background: url(../img/world_bg.png) center center/cover no-repeat;
+}
+
+/* line 439, ../bootstrap project/src/scss/_general.scss */
+.world .label_world {
+  width: 79px;
+  height: 27px;
+  background: #FFFFFF;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #070716;
+  margin-top: 46px;
+}
+
+/* line 451, ../bootstrap project/src/scss/_general.scss */
+.world .title_world {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 460, ../bootstrap project/src/scss/_general.scss */
+.world .subtitle_world {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 468, ../bootstrap project/src/scss/_general.scss */
+.world .world_link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 49px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1fbad6;
+  text-decoration: none;
+}
+
+/* line 485, ../bootstrap project/src/scss/_general.scss */
+footer {
+  min-height: 133px;
+}
+
+/* line 488, ../bootstrap project/src/scss/_general.scss */
+footer .footer_divider {
+  width: 301px;
+  height: 7px;
+  background: #1FBAD6;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+/* line 496, ../bootstrap project/src/scss/_general.scss */
+footer .footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 504, ../bootstrap project/src/scss/_general.scss */
+footer .footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 510, ../bootstrap project/src/scss/_general.scss */
+footer .footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 521, ../bootstrap project/src/scss/_general.scss */
+footer .footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 526, ../bootstrap project/src/scss/_general.scss */
+footer .footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 532, ../bootstrap project/src/scss/_general.scss */
+footer .footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 539, ../bootstrap project/src/scss/_general.scss */
+footer .footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 545, ../bootstrap project/src/scss/_general.scss */
+footer .footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 552, ../bootstrap project/src/scss/_general.scss */
+footer .footer_links_lang {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  /* line 5, ../bootstrap project/src/scss/_media.scss */
+  .menu .menu_item {
+    padding-right: 20px;
+  }
+  /* line 9, ../bootstrap project/src/scss/_media.scss */
+  .menu .menu_link {
+    font-size: 13px;
+  }
+  /* line 17, ../bootstrap project/src/scss/_media.scss */
+  .promo .promo_header {
+    font-size: 50px;
+  }
+  /* line 26, ../bootstrap project/src/scss/_media.scss */
+  .reasons .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 30, ../bootstrap project/src/scss/_media.scss */
+  .reasons .reasons_descr {
+    width: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 42, ../bootstrap project/src/scss/_media.scss */
+  .menu .menu_item {
+    padding-right: 8px;
+  }
+  /* line 46, ../bootstrap project/src/scss/_media.scss */
+  .menu .menu_link {
+    font-size: 10px;
+  }
+  /* line 53, ../bootstrap project/src/scss/_media.scss */
+  .subheader .subheader_logo img {
+    width: 100%;
+  }
+  /* line 57, ../bootstrap project/src/scss/_media.scss */
+  .subheader .subheader_official {
+    font-size: 11px;
+  }
+  /* line 61, ../bootstrap project/src/scss/_media.scss */
+  .subheader .subheader_phone {
+    font-size: 12px;
+  }
+  /* line 65, ../bootstrap project/src/scss/_media.scss */
+  .subheader .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 75, ../bootstrap project/src/scss/_media.scss */
+  .promo .promo_header {
+    font-size: 40px;
+  }
+  /* line 79, ../bootstrap project/src/scss/_media.scss */
+  .promo .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 88, ../bootstrap project/src/scss/_media.scss */
+  reasons .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 93, ../bootstrap project/src/scss/_media.scss */
+  reasons .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 104, ../bootstrap project/src/scss/_media.scss */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 116, ../bootstrap project/src/scss/_media.scss */
+  .menu :active {
+    left: 0;
+  }
+  /* line 120, ../bootstrap project/src/scss/_media.scss */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  /* line 126, ../bootstrap project/src/scss/_media.scss */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 130, ../bootstrap project/src/scss/_media.scss */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 140, ../bootstrap project/src/scss/_media.scss */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+  }
+  /* line 148, ../bootstrap project/src/scss/_media.scss */
+  .hamburger span :active {
+    background-color: coral;
+    transform: rotate(-45deg);
+  }
+}
+
+/* line 155, ../bootstrap project/src/scss/_media.scss */
+.xs-hidden {
+  display: none;
+}
+
+/* line 161, ../bootstrap project/src/scss/_media.scss */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 200px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 171, ../bootstrap project/src/scss/_media.scss */
+.subheader .subheader_btn {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* line 184, ../bootstrap project/src/scss/_media.scss */
+.promo .promo_header {
+  line-height: 45px;
+}
+
+@media (max-width: 575px) {
+  /* line 190, ../bootstrap project/src/scss/_media.scss */
+  .nav {
+    height: 30px;
+  }
+  /* line 194, ../bootstrap project/src/scss/_media.scss */
+  .header {
+    height: 30px;
+  }
+  /* line 199, ../bootstrap project/src/scss/_media.scss */
+  .subheader {
+    height: 60px;
+    top: 50px;
+  }
+  /* line 205, ../bootstrap project/src/scss/_media.scss */
+  .subheader .subheader_official {
+    display: none;
+  }
+  /* line 209, ../bootstrap project/src/scss/_media.scss */
+  .subheader .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 213, ../bootstrap project/src/scss/_media.scss */
+  .subheader .subheader_phone {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 11px;
+  }
+  /* line 221, ../bootstrap project/src/scss/_media.scss */
+  .subheader .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 232, ../bootstrap project/src/scss/_media.scss */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 237, ../bootstrap project/src/scss/_media.scss */
+  .promo_text {
+    display: none;
+  }
+  /* line 241, ../bootstrap project/src/scss/_media.scss */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 247, ../bootstrap project/src/scss/_media.scss */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 254, ../bootstrap project/src/scss/_media.scss */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  /* line 260, ../bootstrap project/src/scss/_media.scss */
+  .menu {
+    width: 85%;
+  }
+  /* line 264, ../bootstrap project/src/scss/_media.scss */
+  .reasons {
+    padding: 22px 0 36px 0;
+  }
+  /* line 268, ../bootstrap project/src/scss/_media.scss */
+  .reasons_title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 274, ../bootstrap project/src/scss/_media.scss */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 278, ../bootstrap project/src/scss/_media.scss */
+  .reasons_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 283, ../bootstrap project/src/scss/_media.scss */
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 288, ../bootstrap project/src/scss/_media.scss */
+  .reasons_subtitle {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
